@@ -8,7 +8,7 @@ class Solution {
         while (i<j){
             char tem = s[i];
             s[i] = s[j];
-            s[j] = tem;
+            s[j] = tem; 
             i++;
             j--;
         }
